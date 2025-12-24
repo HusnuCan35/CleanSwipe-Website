@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hüsnü Can Çoban",
+    "subtitle": "Mobile Apps",
+    "description": "Crafting beautiful, intuitive mobile experiences that make your life easier."
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Discover our collection of carefully crafted mobile applications",
+    "viewProject": "View Project",
+    "cleanSwipe": {
+      "name": "Clean Swipe",
+      "tagline": "Swipe to Clean Your Gallery",
+      "description": "The easiest way to declutter your photo library. Swipe left to delete, swipe right to keep. It's that simple.",
+      "features": {
+        "title": "Features",
+        "swipe": "Swipe to Clean",
+        "swipeDesc": "Simply swipe left to delete, swipe right to keep your photos",
+        "unlimited": "Unlimited Swipes",
+        "unlimitedDesc": "Clean your entire photo library with PRO subscription",
+        "video": "Video Support",
+        "videoDesc": "Clean up videos along with your photos",
+        "smartMode": "Smart Mode Gallery",
+        "smartModeDesc": "View and manage all your saved photos in one place"
+      },
+      "cta": "Download on App Store",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfUse": "Terms of Use",
+      "support": "Support"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Clean Swipe",
+    "lastUpdated": "Last updated: December 2024",
+    "content": {
+      "collection": {
+        "title": "Information We Collect",
+        "text": "Clean Swipe accesses your photo library only to display photos for cleaning. We do not upload, store, or share your photos with any third parties. All photo processing happens locally on your device."
+      },
+      "permissions": {
+        "title": "Device Permissions",
+        "text": "We request access to your Photo Library to enable the swipe cleaning feature. This permission can be revoked at any time through your device settings."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "text": "We may collect anonymous usage statistics to improve our app. This data does not include any personal information or photos."
+      },
+      "purchases": {
+        "title": "In-App Purchases",
+        "text": "Subscription purchases are processed securely through Apple's App Store. We do not store your payment information."
+      },
+      "advertising": {
+        "title": "Advertising",
+        "text": "Free users may see ads powered by Google AdMob. Ad personalization can be managed through your device settings."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "If you have any questions about our privacy practices, please contact us at:"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "subtitle": "Clean Swipe",
+    "lastUpdated": "Last updated: December 2024",
+    "content": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "text": "By downloading and using Clean Swipe, you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the app."
+      },
+      "usage": {
+        "title": "2. App Usage",
+        "text": "Clean Swipe is designed to help you manage and clean your photo library. You are responsible for any photos you choose to delete. Deleted photos are moved to your device's Recently Deleted folder."
+      },
+      "subscriptions": {
+        "title": "3. Subscriptions",
+        "text": "Clean Swipe PRO offers auto-renewable subscriptions. Payment will be charged to your Apple ID account at confirmation of purchase. Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period."
+      },
+      "refunds": {
+        "title": "4. Refunds",
+        "text": "All purchases are processed through Apple. For refunds, please contact Apple Support directly through your purchase history."
+      },
+      "intellectual": {
+        "title": "5. Intellectual Property",
+        "text": "All content, features, and functionality of Clean Swipe are owned by us and protected by international copyright, trademark, and other intellectual property laws."
+      },
+      "liability": {
+        "title": "6. Limitation of Liability",
+        "text": "Clean Swipe is provided \"as is\" without warranties of any kind. We are not responsible for any data loss resulting from the use of this app. Always maintain backups of your important photos."
+      },
+      "changes": {
+        "title": "7. Changes to Terms",
+        "text": "We reserve the right to modify these terms at any time. Continued use of the app after changes constitutes acceptance of the new terms."
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Clean Swipe",
+    "description": "Need help? We're here for you.",
+    "content": {
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "How do I delete photos?",
+            "answer": "Simply swipe left on a photo to mark it for deletion, or tap the trash button. Deleted photos are moved to your device's Recently Deleted folder."
+          },
+          {
+            "question": "How do I keep photos?",
+            "answer": "Swipe right on a photo to keep it, or tap the checkmark button. The photo will remain in your library."
+          },
+          {
+            "question": "What is Clean Swipe PRO?",
+            "answer": "Clean Swipe PRO unlocks unlimited swipes, video support, Smart Mode Gallery, and removes all ads."
+          },
+          {
+            "question": "How do I restore my purchase?",
+            "answer": "Go to Settings in the app and tap 'Restore Purchases'. Make sure you're signed in with the same Apple ID used for the original purchase."
+          },
+          {
+            "question": "Are my photos uploaded anywhere?",
+            "answer": "No. All photo processing happens locally on your device. We never upload, store, or share your photos."
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "If you couldn't find the answer you're looking for, feel free to reach out to us:",
+        "email": "husnucan.coban@gmail.com",
+        "responseTime": "We typically respond within 24-48 hours."
+      }
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  },
+  "language": {
+    "en": "English",
+    "tr": "Türkçe"
+  }
+}

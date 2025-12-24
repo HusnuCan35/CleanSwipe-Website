@@ -1,0 +1,99 @@
+.card {
+    position: relative;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-2xl);
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.card:hover {
+    border-color: var(--glass-border-hover);
+    box-shadow: var(--shadow-xl);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    padding: var(--space-xl);
+    position: relative;
+    z-index: 1;
+}
+
+.iconWrapper {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: var(--shadow-lg);
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.content {
+    flex: 1;
+    min-width: 0;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+    color: var(--text-primary);
+}
+
+.tagline {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+    transition: all var(--transition-fast);
+}
+
+.card:hover .arrow {
+    color: var(--accent-light);
+}
+
+.glow {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 100%;
+    opacity: 0;
+    filter: blur(60px);
+    transition: opacity var(--transition-base);
+    pointer-events: none;
+}
+
+.card:hover .glow {
+    opacity: 0.15;
+}
+
+@media (max-width: 480px) {
+    .link {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .tagline {
+        white-space: normal;
+    }
+}

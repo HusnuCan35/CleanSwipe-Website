@@ -1,0 +1,320 @@
+.page {
+    padding-bottom: var(--space-3xl);
+}
+
+/* Hero Section */
+.hero {
+    padding: var(--space-3xl) 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3xl);
+    align-items: center;
+}
+
+.heroContent {
+    text-align: left;
+}
+
+.appIconWrapper {
+    margin-bottom: var(--space-lg);
+    display: inline-block;
+}
+
+.appIconImage {
+    border-radius: var(--radius-2xl);
+    box-shadow: 0 0 40px var(--accent-glow);
+}
+
+.title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    margin-bottom: var(--space-md);
+    color: var(--text-primary);
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--accent-light);
+    margin-bottom: var(--space-lg);
+}
+
+.description {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--space-xl);
+    max-width: 500px;
+}
+
+.buttons {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+/* Phone Mockup */
+.mockup {
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.phone {
+    width: 280px;
+    height: 560px;
+    background: linear-gradient(145deg, #1a1a24, #0a0a0f);
+    border-radius: 40px;
+    padding: 12px;
+    box-shadow:
+        0 0 0 3px rgba(255, 255, 255, 0.1),
+        0 25px 50px -12px rgba(0, 0, 0, 0.5),
+        0 0 80px var(--accent-glow);
+    position: relative;
+}
+
+.phone::before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 24px;
+    background: #0a0a0f;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+.phoneScreen {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-primary));
+    border-radius: 32px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phoneContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl);
+}
+
+.swipeDemo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xl);
+}
+
+.swipeCard {
+    width: 180px;
+    height: 220px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-lg);
+}
+
+.photoPlaceholder {
+    font-size: 4rem;
+}
+
+.swipeIndicators {
+    display: flex;
+    gap: var(--space-xl);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.deleteIndicator {
+    color: var(--danger);
+}
+
+.keepIndicator {
+    color: var(--success);
+}
+
+/* Features Section */
+.features {
+    padding: var(--space-3xl) 0;
+}
+
+.featuresTitle {
+    text-align: center;
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    margin-bottom: var(--space-3xl);
+    color: var(--text-primary);
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--space-xl);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.featureCard {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    padding: var(--space-xl);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.featureCard:hover {
+    background: var(--glass-bg-hover);
+    border-color: var(--glass-border-hover);
+    box-shadow: var(--shadow-xl);
+}
+
+.featureIcon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: var(--space-md);
+}
+
+.featureTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+}
+
+.featureDesc {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* Legal Section */
+.legalSection {
+    padding: var(--space-3xl) 0;
+}
+
+.legalGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-lg);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.legalCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-lg);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    transition: all var(--transition-base);
+    cursor: pointer;
+}
+
+.legalCard:hover {
+    background: var(--glass-bg-hover);
+    border-color: var(--glass-border-hover);
+    transform: translateY(-2px);
+}
+
+.legalContent {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.legalIcon {
+    font-size: 1.75rem;
+}
+
+.legalTitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+}
+
+.legalDesc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.legalArrow {
+    font-size: 1.25rem;
+    color: var(--accent-light);
+    transition: transform var(--transition-fast);
+}
+
+.legalCard:hover .legalArrow {
+    transform: translateX(4px);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .heroContent {
+        text-align: center;
+    }
+
+    .description {
+        margin: 0 auto var(--space-xl);
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .mockup {
+        order: -1;
+    }
+
+    .phone {
+        width: 240px;
+        height: 480px;
+    }
+}
+
+@media (max-width: 480px) {
+    .legalCard {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--space-md);
+    }
+
+    .legalContent {
+        flex-direction: column;
+    }
+
+    .legalArrow {
+        display: none;
+    }
+}

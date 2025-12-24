@@ -1,0 +1,149 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "projects": "Projeler",
+        "contact": "İletişim"
+    },
+    "hero": {
+        "title": "Hüsnü Can Çoban",
+        "subtitle": "Mobil Uygulamalar",
+        "description": "Hayatınızı kolaylaştıran güzel ve sezgisel mobil deneyimler yaratıyoruz."
+    },
+    "projects": {
+        "title": "Projelerimiz",
+        "subtitle": "Özenle hazırlanmış mobil uygulamalarımızı keşfedin",
+        "viewProject": "Projeyi İncele",
+        "cleanSwipe": {
+            "name": "Clean Swipe",
+            "tagline": "Kaydırarak Galerinizi Temizleyin",
+            "description": "Fotoğraf kütüphanenizi düzenlemenin en kolay yolu. Silmek için sola, saklamak için sağa kaydırın. Bu kadar basit.",
+            "features": {
+                "title": "Özellikler",
+                "swipe": "Kaydırarak Temizle",
+                "swipeDesc": "Fotoğrafları silmek için sola, saklamak için sağa kaydırın",
+                "unlimited": "Sınırsız Kaydırma",
+                "unlimitedDesc": "PRO aboneliği ile tüm fotoğraf kitaplığınızı temizleyin",
+                "video": "Video Desteği",
+                "videoDesc": "Fotoğraflarla birlikte videoları da temizleyin",
+                "smartMode": "Akıllı Mod Galerisi",
+                "smartModeDesc": "Kaydettiğiniz tüm fotoğrafları tek bir yerde görüntüleyin ve yönetin"
+            },
+            "cta": "App Store'dan İndir",
+            "privacyPolicy": "Gizlilik Sözleşmesi",
+            "termsOfUse": "Kullanım Şartları",
+            "support": "Destek"
+        }
+    },
+    "privacy": {
+        "title": "Gizlilik Sözleşmesi",
+        "subtitle": "Clean Swipe",
+        "lastUpdated": "Son güncelleme: Aralık 2024",
+        "content": {
+            "collection": {
+                "title": "Topladığımız Bilgiler",
+                "text": "Clean Swipe, fotoğraf kütüphanenize yalnızca temizlik için fotoğrafları görüntülemek amacıyla erişir. Fotoğraflarınızı herhangi bir üçüncü tarafla yüklemez, saklamaz veya paylaşmayız. Tüm fotoğraf işleme cihazınızda yerel olarak gerçekleşir."
+            },
+            "permissions": {
+                "title": "Cihaz İzinleri",
+                "text": "Kaydırarak temizleme özelliğini etkinleştirmek için Fotoğraf Kütüphanenize erişim istiyoruz. Bu izin, cihaz ayarlarınızdan istediğiniz zaman kaldırılabilir."
+            },
+            "analytics": {
+                "title": "Analitik",
+                "text": "Uygulamamızı geliştirmek için anonim kullanım istatistikleri toplayabiliriz. Bu veriler herhangi bir kişisel bilgi veya fotoğraf içermez."
+            },
+            "purchases": {
+                "title": "Uygulama İçi Satın Almalar",
+                "text": "Abonelik satın alımları Apple'ın App Store'u üzerinden güvenli bir şekilde işlenir. Ödeme bilgilerinizi saklamıyoruz."
+            },
+            "advertising": {
+                "title": "Reklamcılık",
+                "text": "Ücretsiz kullanıcılar Google AdMob tarafından desteklenen reklamlar görebilir. Reklam kişiselleştirme, cihaz ayarlarınız üzerinden yönetilebilir."
+            },
+            "contact": {
+                "title": "Bize Ulaşın",
+                "text": "Gizlilik uygulamalarımız hakkında sorularınız varsa, lütfen bizimle iletişime geçin:"
+            }
+        }
+    },
+    "terms": {
+        "title": "Kullanım Şartları",
+        "subtitle": "Clean Swipe",
+        "lastUpdated": "Son güncelleme: Aralık 2024",
+        "content": {
+            "acceptance": {
+                "title": "1. Şartların Kabulü",
+                "text": "Clean Swipe'ı indirip kullanarak bu Kullanım Şartlarına bağlı olmayı kabul etmiş olursunuz. Bu şartları kabul etmiyorsanız, lütfen uygulamayı kullanmayın."
+            },
+            "usage": {
+                "title": "2. Uygulama Kullanımı",
+                "text": "Clean Swipe, fotoğraf kütüphanenizi yönetmenize ve temizlemenize yardımcı olmak için tasarlanmıştır. Silmeyi seçtiğiniz fotoğraflardan siz sorumlusunuz. Silinen fotoğraflar cihazınızın Son Silinenler klasörüne taşınır."
+            },
+            "subscriptions": {
+                "title": "3. Abonelikler",
+                "text": "Clean Swipe PRO, otomatik yenilenen abonelikler sunar. Satın alma onaylandığında ödeme Apple ID hesabınıza yansıtılır. Abonelikler, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir."
+            },
+            "refunds": {
+                "title": "4. İadeler",
+                "text": "Tüm satın almalar Apple üzerinden işlenir. İadeler için lütfen satın alma geçmişiniz üzerinden doğrudan Apple Destek ile iletişime geçin."
+            },
+            "intellectual": {
+                "title": "5. Fikri Mülkiyet",
+                "text": "Clean Swipe'ın tüm içeriği, özellikleri ve işlevselliği bize aittir ve uluslararası telif hakkı, ticari marka ve diğer fikri mülkiyet yasaları ile korunmaktadır."
+            },
+            "liability": {
+                "title": "6. Sorumluluk Sınırlaması",
+                "text": "Clean Swipe herhangi bir garanti olmaksızın \"olduğu gibi\" sunulmaktadır. Bu uygulamanın kullanımından kaynaklanan herhangi bir veri kaybından sorumlu değiliz. Önemli fotoğraflarınızın her zaman yedeklerini alın."
+            },
+            "changes": {
+                "title": "7. Şartlardaki Değişiklikler",
+                "text": "Bu şartları istediğimiz zaman değiştirme hakkını saklı tutuyoruz. Değişikliklerden sonra uygulamayı kullanmaya devam etmeniz yeni şartların kabulü anlamına gelir."
+            }
+        }
+    },
+    "support": {
+        "title": "Destek",
+        "subtitle": "Clean Swipe",
+        "description": "Yardıma mı ihtiyacınız var? Size yardımcı olmak için buradayız.",
+        "content": {
+            "faq": {
+                "title": "Sık Sorulan Sorular",
+                "items": [
+                    {
+                        "question": "Fotoğrafları nasıl silerim?",
+                        "answer": "Bir fotoğrafı silmek için sola kaydırın veya çöp kutusu düğmesine dokunun. Silinen fotoğraflar cihazınızın Son Silinenler klasörüne taşınır."
+                    },
+                    {
+                        "question": "Fotoğrafları nasıl saklarım?",
+                        "answer": "Bir fotoğrafı saklamak için sağa kaydırın veya onay işareti düğmesine dokunun. Fotoğraf kütüphanenizde kalacaktır."
+                    },
+                    {
+                        "question": "Clean Swipe PRO nedir?",
+                        "answer": "Clean Swipe PRO, sınırsız kaydırma, video desteği, Akıllı Mod Galerisi kilidini açar ve tüm reklamları kaldırır."
+                    },
+                    {
+                        "question": "Satın almamı nasıl geri yüklerim?",
+                        "answer": "Uygulamadaki Ayarlar'a gidin ve 'Satın Almaları Geri Yükle' seçeneğine dokunun. Orijinal satın alma için kullanılan Apple ID ile giriş yaptığınızdan emin olun."
+                    },
+                    {
+                        "question": "Fotoğraflarım bir yere yükleniyor mu?",
+                        "answer": "Hayır. Tüm fotoğraf işleme cihazınızda yerel olarak gerçekleşir. Fotoğraflarınızı asla yüklemez, saklamaz veya paylaşmayız."
+                    }
+                ]
+            },
+            "contact": {
+                "title": "Bize Ulaşın",
+                "text": "Aradığınız cevabı bulamadıysanız, bizimle iletişime geçmekten çekinmeyin:",
+                "email": "husnucan.coban@gmail.com",
+                "responseTime": "Genellikle 24-48 saat içinde yanıt veriyoruz."
+            }
+        }
+    },
+    "footer": {
+        "rights": "Tüm hakları saklıdır.",
+        "madeWith": "Sevgiyle yapıldı"
+    },
+    "language": {
+        "en": "English",
+        "tr": "Türkçe"
+    }
+}

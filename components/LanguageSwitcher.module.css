@@ -1,0 +1,35 @@
+.switcher {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-full);
+}
+
+.option {
+    background: transparent;
+    border: none;
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    border-radius: var(--radius-full);
+}
+
+.option:hover {
+    color: var(--text-secondary);
+}
+
+.option.active {
+    color: var(--text-primary);
+    background: var(--accent);
+}
+
+.divider {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+}
