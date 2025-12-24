@@ -73,8 +73,8 @@ export default function PrivacyPolicyPage() {
                             </p>
                             {section === 'contact' && (
                                 <div className={styles.contactInfo}>
-                                    <a href="mailto:support@cleanswipe.app" className={styles.contactLink}>
-                                        📧 support@cleanswipe.app
+                                    <a href="mailto:husnucan.coban@gmail.com" className={styles.contactLink}>
+                                        📧 husnucan.coban@gmail.com
                                     </a>
                                 </div>
                             )}

@@ -36,6 +36,10 @@
     font-size: 2rem;
 }
 
+.iconImage {
+    border-radius: var(--radius-lg);
+}
+
 .content {
     flex: 1;
     min-width: 0;

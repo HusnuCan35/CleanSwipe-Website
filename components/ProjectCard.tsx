@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
@@ -9,11 +10,12 @@ interface ProjectCardProps {
     id: string;
     name: string;
     tagline: string;
-    icon: string;
+    icon?: string;
+    iconImage?: string;
     gradient: string;
 }
 
-export default function ProjectCard({ id, name, tagline, icon, gradient }: ProjectCardProps) {
+export default function ProjectCard({ id, name, tagline, icon, iconImage, gradient }: ProjectCardProps) {
     const t = useTranslations('projects');
     const locale = useLocale();
 
@@ -27,8 +29,18 @@ export default function ProjectCard({ id, name, tagline, icon, gradient }: Proje
             transition={{ duration: 0.3 }}
         >
             <Link href={`/${locale}/projects/${id}`} className={styles.link}>
-                <div className={styles.iconWrapper} style={{ background: gradient }}>
-                    <span className={styles.icon}>{icon}</span>
+                <div className={styles.iconWrapper} style={{ background: iconImage ? 'transparent' : gradient }}>
+                    {iconImage ? (
+                        <Image
+                            src={iconImage}
+                            alt={name}
+                            width={64}
+                            height={64}
+                            className={styles.iconImage}
+                        />
+                    ) : (
+                        <span className={styles.icon}>{icon}</span>
+                    )}
                 </div>
                 <div className={styles.content}>
                     <h3 className={styles.name}>{name}</h3>

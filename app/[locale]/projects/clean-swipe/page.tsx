@@ -114,23 +114,15 @@ export default function CleanSwipePage() {
                     >
                         <div className={styles.phone}>
                             <div className={styles.phoneScreen}>
-                                <div className={styles.phoneContent}>
-                                    <div className={styles.swipeDemo}>
-                                        <motion.div
-                                            className={styles.swipeCard}
-                                            animate={{ x: [0, -20, 0, 20, 0] }}
-                                            transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-                                        >
-                                            <div className={styles.photoPlaceholder}>
-                                                📸
-                                            </div>
-                                        </motion.div>
-                                        <div className={styles.swipeIndicators}>
-                                            <span className={styles.deleteIndicator}>❌ {locale === 'tr' ? 'Sil' : 'Delete'}</span>
-                                            <span className={styles.keepIndicator}>✅ {locale === 'tr' ? 'Sakla' : 'Keep'}</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <video
+                                    className={styles.demoVideo}
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                >
+                                    <source src="/videos/clean-swipe-demo.mp4" type="video/mp4" />
+                                </video>
                             </div>
                         </div>
                     </motion.div>

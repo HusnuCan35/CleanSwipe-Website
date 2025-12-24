@@ -13,7 +13,7 @@ export default function Home() {
             id: 'clean-swipe',
             name: t('projects.cleanSwipe.name'),
             tagline: t('projects.cleanSwipe.tagline'),
-            icon: '🧹',
+            iconImage: '/images/clean-swipe-logo.png',
             gradient: 'linear-gradient(135deg, #6366f1, #a855f7)'
         }
     ];
